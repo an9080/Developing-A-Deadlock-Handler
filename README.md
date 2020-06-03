@@ -1,2 +1,3 @@
 # Developing-A-Deadlock-Handler
-Deadlock is one of the biggest concerns these days, as databases are accessed from various sites and demand and allocation of resources may lead to a deadlock in the database.
+Deadlock is one of the biggest concerns these days, as databases are accessed from various sites and demand and allocation of resources may lead to a deadlock in the database. a deadlock is an unwanted situation in which two or more transactions are waiting indefinitely for one another to give up locks. Deadlock is said to be one of the most feared complications in DBMS as no task ever gets finished and is in waiting for state forever.
+This project is aimed to implement a Timestamp deadlock prevention technique, these techniques are wait-die and wound-wait. Also, the project allows users to check the deadlock in a specific time they choose.
